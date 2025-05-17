@@ -6,7 +6,7 @@ def check_armstrong(n):
     df = list(str(n))
 
     check = 0
-    for i in df:
+    for i in df: 
         if len(str(n)) == 3:
             ds = int(i) * int(i) * int(i)
         else:
@@ -14,7 +14,7 @@ def check_armstrong(n):
         check += ds
 
     if check == n:
-        result = {
+        result = { 
 
             "number" :n,
             "armstrong":True,
